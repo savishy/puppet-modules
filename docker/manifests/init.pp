@@ -1,7 +1,7 @@
 # Class: docker
 # ===========================
 #
-# Full description of class docker here.
+# Install Docker or ensure it is installed.
 #
 # Parameters
 # ----------
@@ -44,5 +44,12 @@
 #
 class docker {
 
+exec { 'add_docker_gpg':
+  command => 'curl -fsSL https://get.docker.com/gpg | sudo apt-key add -'
+}
+
+exec { 'install_docker':
+  command => 'curl -sSL http://get.docker.com | sh'
+}
 
 }
