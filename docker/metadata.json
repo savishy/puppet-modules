@@ -1,0 +1,15 @@
+{
+  "name": "savishy-docker",
+  "version": "0.1.0",
+  "author": "savishy",
+  "summary": "install docker",
+  "license": "Apache-2.0",
+  "source": "gith\u001b[C\u001b[C\u001bhttp://github.com/savishy/puppet-modules",
+  "project_page": "http://github.com/savishy/puppet-modules",
+  "issues_url": "http://github.com/savishy/puppet-modules/issues",
+  "dependencies": [
+    {"name":"puppetlabs-stdlib","version_requirement":">= 1.0.0"}
+  ],
+  "data_provider": null
+}
+
